@@ -1,0 +1,22 @@
+{
+  "name": "Flickr",
+  "authors": [
+    "EQuimper <quimperemanuel@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.3",
+    "bootstrap": "^3.3.6",
+    "normalize-css": "normalize.css#^4.0.0"
+  }
+}
