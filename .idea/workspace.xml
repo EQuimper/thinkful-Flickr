@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1d2d5b6-8a75-47c6-ad20-63fc17dd4027" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/main.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/main.css" afterPath="$PROJECT_DIR$/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/main.css.map" afterPath="$PROJECT_DIR$/styles/main.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/main.sass" afterPath="$PROJECT_DIR$/styles/main.sass" />
     </list>
     <ignored path="Flickr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="25" column="85" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="85" />
+            <state relative-caret-position="0">
+              <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -46,10 +48,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/styles/main.scss" />
-        <option value="$PROJECT_DIR$/styles/main.sass" />
         <option value="$PROJECT_DIR$/js/api.js" />
-        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/styles/main.sass" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/app.js" />
       </list>
     </option>
   </component>
@@ -157,45 +159,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flickr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flickr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flickr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flickr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -203,8 +173,12 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="SearchEverywhereHistoryKey" value="secret&#9;null&#9;null" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.app.js">
+    <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/js">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -258,6 +232,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -276,12 +258,12 @@
       <workItem from="1460242857686" duration="802000" />
       <workItem from="1460245695897" duration="162000" />
       <workItem from="1460245875259" duration="394000" />
-      <workItem from="1460246489340" duration="9513000" />
+      <workItem from="1460246489340" duration="11010000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10891000" />
+    <option name="totallyTimeSpent" value="12388000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -305,9 +287,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39919356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -328,7 +310,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -372,14 +356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="2" selection-end-line="15" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/api.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -388,18 +364,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
+    <entry file="file://$PROJECT_DIR$/styles/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="208">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="25" column="85" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="85" />
+        <state relative-caret-position="315">
+          <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
           <folding />
         </state>
       </provider>

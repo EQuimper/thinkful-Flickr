@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html ng-app="myApp">
-	<head>
-		<meta charset="utf-8">
-		<title>Flickr Search</title>
-		<link rel="stylesheet" href="bower_components/normalize-css/normalize.css" charset="utf-8">
-		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" charset="utf-8">
-		<link rel="stylesheet" href="styles/main.css" charset="utf-8">
-	</head>
-	<body ng-controller="SearchCtrl">
-		<header class="container text-center title">
-			<h1>Flickr Searcher</h1>
-		</header>
-		<section class="search container text-center col-lg-6 col-lg-offset-3">
-			<form id="searchPic" class="col-lg-8 col-lg-offset-2" ng-submit="searchFlickr(search_tag)">
-				<input type="text" id="search" class="form-control" ng-model="search_tag" required />
-				<button class="btn btn-default" type="submit">Submit</button>
-			</form>
-		</section>
-		<section id="results" ng-if="results" class="col-lg-8 col-lg-offset-2">
-			<div class=" text-center results" ng-if="results">
-				<h2>We found {{ results.length }} results for {{ search_tag }} !</h2>
-			</div>
-			<div ng-repeat="result in results">
-				<p>{{result.title}}</p>
-				<img ng-src="trustSrc(https://farm{{farm}}.staticflickr.com/{{server}}/{{id}}.jpg)">
-			</div>
-		</section>
+<head>
+	<meta charset="utf-8">
+	<title>Flickr Search</title>
+	<link rel="stylesheet" href="bower_components/normalize-css/normalize.css" charset="utf-8">
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" charset="utf-8">
+	<link rel="stylesheet" href="styles/main.css" charset="utf-8">
+</head>
+<body ng-controller="SearchCtrl">
+<header class="container text-center title">
+	<h1>Flickr Searcher</h1>
+</header>
+<section class="search container text-center col-lg-6 col-lg-offset-3">
+	<form id="searchPic" class="col-lg-8 col-lg-offset-2" ng-submit="searchFlickr(search_tag)">
+		<input type="text" id="search" class="form-control" ng-model="search_tag" required/>
+		<button class="btn btn-default" type="submit">Submit</button>
+	</form>
+</section>
+<section id="results" ng-if="results" class="col-lg-8 col-lg-offset-2">
+	<div class=" text-center results" ng-if="results">
+		<h2>We found {{ results.length }} results for {{ search_tag }} !</h2>
+	</div>
+	<div ng-repeat="result in results" class="col-lg-4">
+		<img ng-src="https://farm{{result.farm}}.staticflickr.com/{{result.server}}/{{result.id}}_{{result.secret}}.jpg">
+	</div>
+</section>
 
 
-		<script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
-		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
-		<script src="bower_components/angular/angular.min.js" charset="utf-8"></script>
-		<script src="js/api.js"></script>
-		<script src="js/app.js" charset="utf-8"></script>
-	</body>
+<script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+<script src="bower_components/angular/angular.min.js" charset="utf-8"></script>
+<script src="bower_components/angular-animate/angular-animate.min.js"></script>
+<script src="js/api.js"></script>
+<script src="js/app.js" charset="utf-8"></script>
+</body>
 </html>

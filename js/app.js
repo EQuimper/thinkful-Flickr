@@ -1,4 +1,4 @@
-var app = angular.module('myApp', [])
+var app = angular.module('myApp', ['ngAnimate'])
 		.config(function ($httpProvider) {
 			$httpProvider.defaults.useXDomain = true;
 		})
@@ -9,7 +9,7 @@ var app = angular.module('myApp', [])
 			};
 
 			$scope.searchFlickr = function (search_tag) {
-				
+
 				var url = "https://api.flickr.com/services/rest";
 
 				var request = {
@@ -26,10 +26,10 @@ var app = angular.module('myApp', [])
 					params: request
 				})
 						.then(function (response) {
-							$scope.results = response.data.photos.photo;
-						},
-						function (response) {
-							alert('error');
-						});
+									$scope.results = response.data.photos.photo;
+								},
+								function (response) {
+									alert('error');
+								});
 			};
 		});
