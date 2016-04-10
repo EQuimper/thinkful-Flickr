@@ -21,7 +21,7 @@
 	<div class=" text-center results" ng-if="results">
 		<h2>We found {{ results.length }} results for {{ search_tag }} !</h2>
 	</div>
-	<div ng-repeat="result in results" class="col-lg-4">
+	<div ng-repeat="result in results" class="col-lg-4 animate">
 		<img ng-src="https://farm{{result.farm}}.staticflickr.com/{{result.server}}/{{result.id}}_{{result.secret}}.jpg">
 	</div>
 </section>
